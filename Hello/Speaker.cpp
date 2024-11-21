@@ -1,5 +1,4 @@
 #include "Speaker.h"
-
 #include <iostream>
 
 namespace Hello {
