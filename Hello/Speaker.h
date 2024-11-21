@@ -1,11 +1,6 @@
-#include <stdio.h>
-#include <iostream>
-
 namespace Hello {
-
-  class Speaker {
-    
+    class Speaker {
     public:
-      void sayHello();
-  };
+        void sayHello() const;
+    };
 }

@@ -1,5 +1,7 @@
-cmake_minimum_required (VERSION 2.8)
+cmake_minimum_required (VERSION 3.22)
 project (CMakeHelloWorld)
+
+set (CMAKE_EXPORT_COMPILE_COMMANDS)
 
 #version number
 set (CMakeHelloWorld_VERSION_MAJOR 1)

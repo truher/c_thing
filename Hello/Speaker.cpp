@@ -1,10 +1,9 @@
 #include "Speaker.h"
 
-using namespace Hello;
-using namespace std;
+#include <iostream>
 
 namespace Hello {
-  void Speaker::sayHello() {
-    cout << "Hello, world!\n";
-  }
+    void Speaker::sayHello() const {
+        std::cout << "Hello, world!\n";
+    }
 }
