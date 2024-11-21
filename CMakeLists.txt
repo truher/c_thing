@@ -1,5 +1,3 @@
-# see https://nanobind.readthedocs.io/en/latest/basics.html
-
 cmake_minimum_required (VERSION 3.22)
 project (hello)
 
@@ -8,8 +6,6 @@ find_package(Python 3.8 COMPONENTS Interpreter ${DEV_MODULE} REQUIRED)
 set(CMAKE_BUILD_TYPE Release)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ext/nanobind)
 
-
-# include ALL the source files, not just the NB_MODULE file
 nanobind_add_module(
     hello 
     "Hello/hello.cpp"
